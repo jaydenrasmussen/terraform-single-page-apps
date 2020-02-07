@@ -1,6 +1,6 @@
 variable "route53_zone" {
   type    = string
-  default = "jrasm.us"
+  default = ""
 }
 variable "domain_name" {
   type    = string
