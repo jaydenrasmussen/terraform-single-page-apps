@@ -25,7 +25,7 @@ terraform apply --auto-approve -var-file=<your_var_file>
 ### Continuous Deployments
 
 ```shell
-aws s3 sync <website assets> s3://<domain_name>
+aws s3 sync --acl 'public-read' <website assets> s3://<domain_name>
 ```
 
 ```shell
